@@ -1,0 +1,18 @@
+package it.contrader.DTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class OspedaleDTO {
+	
+	private Long id;
+	
+	private String nome;
+	
+	private String città;
+
+}
